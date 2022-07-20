@@ -1,0 +1,184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#A5C9CA;
+}
+.titlebar{
+    text-align: center;
+    width: auto;
+}
+.titlebar-logo{
+    height: 150px;
+    width: 150px;
+}
+.titlebar-text{
+    font-size: 30px;
+    font-weight: bold;
+    color: #2C3333;
+}
+.navbar{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.navbar-links{
+    margin-right: 20px;
+}
+.body-box{
+    position: relative;
+    margin: auto;
+    height: 900px;
+    width: 1200px;
+    background-color: #395B64;
+}.homePageSliderButton{
+    height: 120px;
+    width: 40px;
+    position: relative;
+    top: -250px;   
+}
+#homePage{
+    text-align: center;
+    padding-top: 100px;
+    height: 600px;
+}
+#guitarPage{
+    height: auto;
+    background-color: #E7F6F2;
+    padding-top: 100px;
+    text-align: center;
+}
+.guitar-box{
+    display: flex;
+}
+.guitar1-box , .guitar2-box , .guitar3-box{
+    height: 600px;
+    width: 33.3%;
+    margin-top: 20px;
+    margin-left: 0.5px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.guitar-image{
+    height: 400px;
+    width: 350px;
+}
+.guitar1-box > button , .guitar2-box > button , .guitar3-box > button {
+    height: 80px;
+    width: 200px;
+    margin: 10px;
+}
+#stringInstrumentsPage{
+    height: auto;
+    background-color: #E7F6F2;
+    padding-top: 100px;
+    text-align: center;
+}
+.string-box{
+    display: flex;
+}
+.string1-box , .string2-box , .string3-box{
+    height: 600px;
+    width: 33.3%;
+    margin-top: 20px;
+    margin-left: 0.5px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.string-image{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+}
+.string1-box > button , .string2-box > button , .string3-box > button {
+    height: 80px;
+    width: 200px;
+    margin: 10px;
+}
+#windInstrumentsPage{
+    height: auto;
+    background-color: #E7F6F2;
+    padding-top: 100px;
+    text-align: center;
+}
+.wind-box{
+    display: flex;
+}
+.wind1-box , .wind2-box , .wind3-box{
+    height: 600px;
+    width: 33.3%;
+    margin-top: 20px;
+    margin-left: 0.5px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+.wind-image{
+    height: 400px;
+    width: 350px;
+    background-color: white;
+}
+
+.wind1-box > button , .wind2-box > button , .wind3-box > button {
+    height: 80px;
+    width: 200px;
+    margin: 10px;
+}
+#contactUsPage{
+    text-align: center;
+    height: 450px; 
+    padding-top: 80px;
+
+}
+.contactLabel{
+    display: inline-block;
+    width: 150px;
+    height: 30px;
+}
+#contactNameLabel{
+    margin-top: 20px;
+}
+.contactFormSubmitButton{
+    height: 50px;
+    width: 120px;
+}
+#aboutUsPage{
+    text-align: center;
+    padding: 60px 0px;
+    font-size: 20px;
+    background-color: #E7F6F2;
+    height: auto;
+}
+.aboutUsPageLabel{
+    margin: 50px 80px;
+}
+#footerPage{
+    text-align: center;
+    height: 380px; 
+    background-color: #2C3333;
+    padding-top: 100px;
+    font-size: 22px;
+    margin: auto;
+    display: flex;
+    color: whitesmoke;
+}
+.footerAdress{
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-right: 20px;
+    color: white;
+}
+.footerImage{
+    height: 300px;
+    width: auto;
+    margin: auto;
+}
+.hide{
+    display: none;
+}
